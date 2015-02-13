@@ -72,7 +72,6 @@ nav a:hover{
 	clear: both;
 }
 /*  estilo para pantallas más anchas que 480px 
-<meta name="viewport" content="width=device-width">
   */
 @media only screen and (min-width: 480px){
 	h1{
