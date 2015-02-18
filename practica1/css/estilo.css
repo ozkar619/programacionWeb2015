@@ -6,6 +6,17 @@ body{
 	width: 90%;
 	margin: 0 5%;
 }
+
+table{
+	width: 100%;
+
+}
+td, th{
+	border: 1px solid black;
+}
+
+
+
 /* -- Colores ---------
 --------- */
 
@@ -98,3 +109,38 @@ nav a:hover{
 
 
 }/* min-width: 480px */
+
+
+/*  estilo para pantallas más anchas que 850px 
+  */
+@media only screen and (min-width: 850px){
+
+	.header-container,
+	.main aside{
+		 -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+	}
+
+	.title{
+		float: left;
+	}
+
+	nav {
+		float: right;
+		width: 38%;
+	}
+
+	.main article {
+		float: right;
+		width: 57%;
+	}
+
+	.main aside {
+		float: left;
+		width: 28%;
+	}
+
+
+
+}
